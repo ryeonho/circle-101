@@ -6,4 +6,6 @@ jobs:
     steps:
       - checkout
       - run: echo "A first hello"
+      - run: ruby -v
+      - run: ruby -e "print 'aaa'"
       
